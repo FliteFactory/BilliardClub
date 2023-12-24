@@ -1467,4 +1467,247 @@ html {
   .footer__years {
     font-size: 16px;
   }
+}
+@media (max-width: 575px) {
+  .container {
+    width: 320px;
+  }
+  .container_small {
+    width: 320px;
+  }
+  .menu {
+    width: 50%;
+  }
+  .hamburger {
+    top: 40px;
+    right: 25px;
+  }
+  .first-section {
+    height: 700px;
+    background: url(../img/bg1_1199px.png) center/cover;
+    padding-top: 22px;
+  }
+  .first-section__content-container {
+    padding-left: 0px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .first-section__left-wrapper {
+    padding-left: 20px;
+  }
+  .first-section__right-wrapper {
+    margin: 0 auto;
+    display: block;
+    width: 320px;
+    text-align: center;
+  }
+  .first-section__title {
+    font-size: 28px;
+    margin-bottom: -5px;
+  }
+  .first-section__title-img {
+    width: 215px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+  .first-section__icons {
+    width: 180px;
+    padding-top: 9px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+  .first-section__phone {
+    font-size: 16px;
+  }
+  .nav-container {
+    margin-bottom: 30px;
+  }
+  .nav-container__logo-holder {
+    width: 40%;
+  }
+  .nav-container__logo {
+    width: 140px;
+    top: -18px;
+    left: -30px;
+  }
+  .nav-container__address {
+    width: 60%;
+  }
+  .nav-container__address p {
+    font-size: 12px;
+    margin-right: 7px;
+  }
+  .nav-container__address-icon {
+    width: 115px;
+    left: -49px;
+    top: -34px;
+  }
+  .main-background {
+    background-size: 220px;
+    height: 3745px;
+  }
+  .second-section {
+    min-height: 2425px;
+    padding-top: 50px;
+  }
+  .second-section__title {
+    font-size: 26px;
+    margin-bottom: 50px;
+  }
+  .second-section__title .sizepos {
+    width: 200px;
+    left: 8px;
+  }
+  .cards {
+    gap: 63px 20px;
+  }
+  .cards__item {
+    width: 270px;
+    height: 315px;
+  }
+  .cards__img {
+    width: 270px;
+    height: 315px;
+  }
+  .cards__title {
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  .cards__title_small {
+    font-size: 20px;
+  }
+  .cards__amount-info {
+    padding-bottom: 24px;
+  }
+  .cards__icon {
+    margin-right: 8px;
+  }
+  .cards__amount-x {
+    font-size: 20px;
+  }
+  .cards__amount {
+    font-size: 20px;
+  }
+  .third-section {
+    height: 590px;
+  }
+  .third-section__title {
+    font-size: 26px;
+    margin-bottom: 30px;
+    width: 138px;
+  }
+  .third-section__title .sizepos {
+    width: 140px;
+    top: 0px;
+    left: 6px;
+  }
+  .third-section__subtitle {
+    font-size: 13px;
+  }
+  .daytime-item__img {
+    margin-bottom: 14px;
+    width: 50px;
+  }
+  .daytime-item__text {
+    display: none;
+    font-size: 14px;
+  }
+  .daytime-item__backlight {
+    display: none;
+  }
+  .media767px {
+    display: block;
+  }
+  .top-wrapper__left-wrapper {
+    padding-top: 30px;
+    width: 40%;
+  }
+  .top-wrapper__right-wrapper {
+    width: 60%;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  .bottom-wrapper__left-wrapper {
+    width: 38%;
+  }
+  .bottom-wrapper__right-wrapper {
+    height: 320px;
+    width: 62%;
+    padding: 4px 20px 4px 20px;
+  }
+  .services-list {
+    height: 320px;
+    padding-left: 10px;
+  }
+  .services-list__item {
+    font-size: 16px;
+    line-height: 14px;
+  }
+  .prices-item {
+    font-size: 10px;
+  }
+  .main-backlight {
+    width: 50px;
+    height: 330px;
+  }
+  .main-backlight_morning {
+    top: 30px;
+    left: 2px;
+  }
+  .main-backlight_afternoon {
+    top: 30px;
+    left: 68px;
+  }
+  .main-backlight_evening {
+    top: 30px;
+    left: 130px;
+  }
+  .fourth-section {
+    min-height: 610px;
+  }
+  .fourth-section__title {
+    font-size: 26px;
+    margin-bottom: 50px;
+  }
+  .fourth-section__title .sizepos {
+    width: 242px;
+    top: 3px;
+    left: -16px;
+  }
+  .contacts {
+    width: 275px;
+  }
+  .map {
+    width: 300px;
+  }
+  .map__backlight {
+    width: 280px;
+    height: 154px;
+    left: 9px;
+  }
+  .map__img {
+    width: 280px;
+    height: 154px;
+  }
+  .map__btn {
+    width: 232px;
+    height: 34px;
+    border-radius: 27px;
+    font-size: 14px;
+  }
+  .footer__container {
+    padding-top: 20px;
+    padding-right: 10px;
+  }
+  .footer__logo {
+    width: 140px;
+    top: -18px;
+    left: -30px;
+  }
+  .footer__label {
+    display: none;
+  }
+  .footer__years {
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */
